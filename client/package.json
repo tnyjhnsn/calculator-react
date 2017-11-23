@@ -1,0 +1,22 @@
+{
+  "name": "calc-app",
+  "version": "1.0.0",
+  "main": "../server/server.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "scripts": {
+    "webpack": "webpack --config=webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  }
+}
